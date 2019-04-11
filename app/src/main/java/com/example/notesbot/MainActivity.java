@@ -117,9 +117,9 @@ public class MainActivity extends AppCompatActivity {
         //Para asignar el authentication (usuario + password) hay que hacerlo en base 64, en la siguiente página:
         //https://www.base64encode.org/
 
-        String workspaceId = "074089cf-9ef1-487f-87bd-f2c1626225fa";
-        String urlAssistant = "https://gateway.watsonplatform.net/assistant/api/v1/workspaces/"+workspaceId+"/message?version=2018-09-20"; //Añadir la versión
-        String authentication = "ODU4NGQzOTUtNjhjZC00MWM4LThmZWItNmQ4ZmExODZjMjUxOmExaVFKZUhZcVh3VQ==";
+        String workspaceId = "Aquí va el ID de tu Workspace";
+        String urlAssistant = "Aquí va la URL de tu Assistant"+workspaceId+"/message?version=2018-09-20"; //Añadir la versión
+        String authentication = "Aquí va la autentificación {usuario : password}"; //Pasados a base 64
 
         //Creo la estructura JSON de input del usuario
         JSONObject inputjsonObject = new JSONObject();
