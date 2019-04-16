@@ -1,4 +1,4 @@
-# Notesbot
+# Notesbot V2
 Proyecto que conecta una aplicación Android con IBM Watson Assistant
 
 # Proyecto basado en el siguiente vídeo: </br>
